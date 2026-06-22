@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#fff;
+}
+
+/* HERO */
+
+.hero{
+    background:#eef7f4;
+    min-height:650px;
+    display:flex;
+    align-items:center;
+    padding:0 8%;
+}
+
+.hero-content{
+    max-width:700px;
+}
+
+.badge{
+    display:inline-block;
+    background:#e4f5e7;
+    color:#2e7d32;
+    padding:10px 18px;
+    border-radius:30px;
+    font-size:14px;
+    margin-bottom:30px;
+}
+
+.hero h1{
+    font-size:80px;
+    line-height:0.95;
+    margin-bottom:25px;
+    font-weight:800;
+}
+
+.blue{
+    color:#2563eb;
+}
+
+.green{
+    color:#2e7d32;
+}
+
+.hero p{
+    color:#64748b;
+    font-size:22px;
+    line-height:1.7;
+    margin-bottom:40px;
+}
+
+.buttons{
+    display:flex;
+    gap:15px;
+    margin-bottom:60px;
+}
+
+.btn-primary{
+    background:#2e7d32;
+    color:white;
+    text-decoration:none;
+    padding:14px 28px;
+    border-radius:40px;
+    font-weight:600;
+}
+
+.btn-secondary{
+    background:white;
+    border:1px solid #d8d8d8;
+    color:#444;
+    text-decoration:none;
+    padding:14px 28px;
+    border-radius:40px;
+}
+
+.stats{
+    display:flex;
+    gap:60px;
+}
+
+.stat h3{
+    color:#2563eb;
+    font-size:42px;
+    margin-bottom:8px;
+}
+
+.stat span{
+    color:#64748b;
+}
+
+/* COMO FUNCIONA */
+
+.how-it-works{
+    padding:100px 8%;
+    text-align:center;
+}
+
+.how-it-works h2{
+    font-size:48px;
+    margin-bottom:15px;
+    color:#0f172a;
+}
+
+.subtitle{
+    color:#64748b;
+    margin-bottom:80px;
+}
+
+.steps{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.step{
+    width:260px;
+}
+
+.icon-circle{
+    width:90px;
+    height:90px;
+    border:2px solid #dce8de;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 auto 25px;
+}
+
+.icon-circle img{
+    width:42px;
+    height:42px;
+    object-fit:contain;
+}
+
+.step h3{
+    font-size:22px;
+    margin-bottom:15px;
+    color:#111827;
+}
+
+.step p{
+    color:#64748b;
+    line-height:1.7;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .hero h1{
+        font-size:48px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+
+    .stats{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .buttons{
+        flex-wrap:wrap;
+    }
+}
