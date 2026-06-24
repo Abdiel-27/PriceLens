@@ -9,7 +9,65 @@ body{
     background:#fff;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 48px;
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+}
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 36px;
+    height: 36px;
+}
+
+.logo-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.logo-text .price { color: #1a73c8; }
+.logo-text .lens  { color: #2e7d32; }
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+nav a:hover { color: #1a73c8; }
+
+.btn-download {
+    background: #2e7d32;
+    color: #fffff;
+    padding: 10px 22px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-download:hover {
+    background: #1b5e20; 
+}
 .hero{
     background:#eef7f4;
     min-height:650px;
