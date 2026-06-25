@@ -223,7 +223,8 @@ nav a:hover { color: #1a73c8; }
 .how-it-works{
     padding:100px 8%;
     text-align:center;
-    background: #f5f7f7;
+    background-color: #f5f7f7;
+    overflow: hidden;
 }
 
 .how-it-works h2{
@@ -240,6 +241,9 @@ nav a:hover { color: #1a73c8; }
 
 .step{
     width:260px;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeUp 0.6s ease forwards;
 }
 
 .icon-circle{
