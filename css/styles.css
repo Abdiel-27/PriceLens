@@ -69,7 +69,7 @@ nav a:hover { color: #1a73c8; }
      background-color: #1b5e20; 
 }
 .hero{
-    background: linear-gradient(135deg, #e6f1fd, #f2fef7);
+    background: linear-gradient(135deg, #e7f1fb, #f2faf6);
     min-height: 650px;
     display: flex;
     align-items: center;
