@@ -243,14 +243,20 @@ nav a:hover { color: #1a73c8; }
     width:260px;
 }
 .icon-circle{
-    width:90px;
-    height:90px;
-    border:2px solid #dce8de;
-    border-radius:50%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin:0 auto 25px;
+    width: 90px;
+    height: 90px;
+    background: #ffffff;
+    border: 2px solid #dce8de;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 25px;
+    transition: border-color 0.3s ease;
+}
+
+.icon-circle:hover{
+    border-color: #2e7d32;
 }
 
 .icon-circle img{
@@ -332,11 +338,12 @@ nav a:hover { color: #1a73c8; }
     margin-top: 20px;
 }
 
-.user img {
-    width: 55px;
-    height: 55px;
+.user img{
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     object-fit: cover;
+    border: 2px solid #e5e5e5;
 }
 
 .user span {
