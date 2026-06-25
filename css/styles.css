@@ -451,3 +451,58 @@ nav a{
     margin-top:15px;
     color:#555;
 }
+
+/* ================= CTA ================= */
+
+.cta {
+    background:#005a99;
+    color:white;
+    padding:30px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.cta-left {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.cta-left img {
+    height:100px;
+    width:150px;
+}
+
+.cta-buttons {
+    display:flex;
+    gap:15px;
+    align-items:center;
+}
+
+.store-b {
+    height:55px;
+    width:auto;
+    display:block;
+    cursor:pointer;
+    transition:transform .2s ease;
+}
+
+.store-b:hover {
+    transform:scale(1.05);
+}
+
+.cta-left h2 {
+    font-size:2.4rem;
+    font-weight:800;
+    color:white;
+    margin-bottom:8px;
+    line-height:1.2;
+}
+
+.cta-left p {
+    font-size:1rem;
+    color:rgba(255,255,255,.85);
+}
