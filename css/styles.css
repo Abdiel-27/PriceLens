@@ -241,11 +241,7 @@ nav a:hover { color: #1a73c8; }
 
 .step{
     width:260px;
-    opacity: 0;
-    transform: translateY(40px);
-    animation: fadeUp 0.6s ease forwards;
 }
-
 .icon-circle{
     width:90px;
     height:90px;
