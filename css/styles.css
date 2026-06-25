@@ -314,6 +314,62 @@ hero{
     }
 }
 
+.mision-section{
+    width: 100%;
+    padding: 80px 8%;
+    background: #f7fcfb;
+}
+
+.mision-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.image-mision{
+    flex: 1;
+    min-width: 300px;
+}
+
+.image-mision img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    display: block;
+}
+
+.mision-information{
+    flex: 1;
+    min-width: 320px;
+    text-align: left;
+}
+
+.mision-information h3{
+    color: #16a34a;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.mision-information h2{
+    color: #0f4c9c;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.mision-information p{
+    color: #6b7280;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
 
 
 .testimonials {
