@@ -407,3 +407,47 @@ nav a{
     color:#666;
     font-size:13px;
 }
+
+/* ================= FAQ ================= */
+
+.faq {
+    background:#f5f7f7;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.faq h2 {
+    margin-bottom:35px;
+    font-size:28px;
+    color:#0f172a;
+}
+
+.faq details {
+    max-width:800px;
+    margin:15px auto;
+    background:white;
+    border-radius:10px;
+    padding:18px;
+    text-align:left;
+}
+
+.faq summary {
+    cursor:pointer;
+    font-weight:700;
+    list-style:none;
+}
+
+.faq summary::-webkit-details-marker {
+    display:none;
+}
+
+.faq summary::after {
+    content:"▼";
+    float:right;
+    font-size:12px;
+}
+
+.faq p {
+    margin-top:15px;
+    color:#555;
+}
