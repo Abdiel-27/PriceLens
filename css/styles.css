@@ -66,3 +66,80 @@ nav a{
     border-radius:12px;
 }
 
+/* ================= HERO ================= */
+
+.hero{
+    background:#EAF5FF;
+    height:620px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:140px;
+    padding:0 8%;
+    overflow:hidden;
+}
+
+.hero-content{
+    max-width:470px;
+}
+
+.hero h1{
+    font-size:52px;
+    line-height:1.1;
+    margin-bottom:20px;
+    font-weight:900;
+}
+
+.blue{
+    color:#075985;
+}
+
+.green{
+    color:#3a9d4b;
+}
+
+.hero p{
+    color:#475569;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:30px;
+}
+
+.buttons{
+    display:flex;
+    gap:15px;
+}
+
+.btn-primary{
+    background:#3a9d4b;
+    color:white;
+    padding:14px 32px;
+    border-radius:12px;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.btn-secondary{
+    background:white;
+    border:1px solid #ddd;
+    padding:14px 32px;
+    border-radius:12px;
+    text-decoration:none;
+    color:#075985;
+}
+
+/* TELEFONO */
+
+.hero-phone{
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+    height:100%;
+    margin-left:30px;
+}
+
+.hero-phone img{
+    width:430px;
+    margin-bottom:-180px;
+    filter:none;
+}
