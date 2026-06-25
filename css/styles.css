@@ -341,3 +341,69 @@ nav a{
     margin-bottom:18px;
 }
 
+/* ================= TESTIMONIOS ================= */
+
+.testimonials {
+    padding: 80px 8%;
+    text-align:center;
+}
+
+.testimonials h2 {
+    margin-bottom:40px;
+    font-size:28px;
+    color:#0f172a;
+}
+
+.testimonial-container {
+    display:flex;
+    gap:25px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.testimonial-card {
+    width:330px;
+    background:#fff;
+    border:1px solid #ececec;
+    padding:25px;
+    border-radius:12px;
+    text-align:left;
+    box-shadow:0 2px 8px rgba(0,0,0,.05);
+}
+
+.stars {
+    color:#f5a623;
+    font-size:20px;
+    margin-bottom:15px;
+    letter-spacing:2px;
+}
+
+.testimonial-card p {
+    font-size:14px;
+    color:#475569;
+    line-height:1.6;
+}
+
+.user {
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-top:20px;
+}
+
+.user img {
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.user h4 {
+    font-size:14px;
+    color:#0f172a;
+}
+
+.user span {
+    color:#666;
+    font-size:13px;
+}
