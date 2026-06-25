@@ -164,11 +164,6 @@ nav a:hover { color: #1a73c8; }
     color:#0f172a;
 }
 
-.subtitle{
-    color:#64748b;
-    margin-bottom:80px;
-}
-
 .steps{
     display:flex;
     justify-content:center;
