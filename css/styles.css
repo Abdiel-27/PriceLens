@@ -159,11 +159,10 @@ nav a:hover { color: #1a73c8; }
 }
 
 .how-it-works h2{
-    font-size:48px;
-    margin-bottom:15px;
+    font-size:30px;
+    margin-bottom:20px;
     color:#0f172a;
 }
-
 .steps{
     display:flex;
     justify-content:center;
