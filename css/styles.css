@@ -68,26 +68,23 @@ nav a:hover { color: #1a73c8; }
 .btn-download:hover {
      background-color: #1b5e20; 
 }
-hero{
+.hero{
     background: linear-gradient(135deg, #daeeff, #d4f0e0);
     min-height: 650px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 8%;
-    overflow: hidden;
-    position: relative;
 }
 
 .hero-image{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
-    align-self: flex-end;
 }
 
 .hero-image img{
-    width: 280px;
+    width: 420px;
     height: auto;
     object-fit: contain;
     display: block;
