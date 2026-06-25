@@ -260,3 +260,84 @@ nav a{
     font-size:14px;
     line-height:1.6;
 }
+
+/* ================= MISION ================= */
+
+.mission{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:70px;
+
+    background:#f1faf3;
+
+    padding:90px 8%;
+    width:100%;
+    flex-wrap:wrap;
+}
+
+.mission-visual{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.mission-visual img{
+    width:450px;
+    max-width:100%;
+    border-radius:18px;
+}
+
+.mission-text{
+    flex:1;
+    max-width:600px;
+}
+
+.mission-tag{
+    color:#3a9d4b;
+    font-size:22px;
+    font-weight:900;
+    letter-spacing:1.5px;
+    display:block;
+    margin-bottom:15px;
+}
+
+.mission-text h2{
+    font-size:38px;
+    line-height:1.25;
+    color:#075985;
+    margin-bottom:25px;
+    font-weight:900;
+}
+
+.mission-text p{
+    color:#64748b;
+    font-size:16px;
+    line-height:1.8;
+    margin-bottom:18px;
+}
+
+.mission-tag{
+    color:#3a9d4b;
+    font-size:22px;
+    font-weight:900;
+    letter-spacing:1.5px;
+    display:block;
+    margin-bottom:15px;
+}
+
+.mission-text h2{
+    font-size:38px;
+    line-height:1.25;
+    color:#075985;
+    margin-bottom:25px;
+    font-weight:900;
+}
+
+.mission-text p{
+    color:#64748b;
+    font-size:16px;
+    line-height:1.8;
+    margin-bottom:18px;
+}
+
