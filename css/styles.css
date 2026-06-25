@@ -143,3 +143,58 @@ nav a{
     margin-bottom:-180px;
     filter:none;
 }
+
+/* ================= COMO FUNCIONA ================= */
+
+
+.how-it-works{
+    background:#f1faf3;
+    padding:80px 8%;
+    text-align:center;
+}
+
+.how-it-works h2{
+    font-size:34px;
+    margin-bottom:45px;
+    color:#111827;
+}
+
+.steps{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.step{
+    width:220px;
+}
+
+.icon-circle{
+    width:80px;
+    height:80px;
+    background:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    margin-bottom:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.icon-circle img{
+    width:38px;
+    height:38px;
+}
+
+.step h3{
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.step p{
+    color:#64748b;
+    font-size:14px;
+    line-height:1.5;
+}
