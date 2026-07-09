@@ -70,10 +70,6 @@ nav a{
     border-radius:12px;
 }
 
-.menu-mobile{
-    display: none;
-}
-
 /* ================= HERO ================= */
 
 .hero{
@@ -560,6 +556,10 @@ footer nav a {
 
 .footer-logo .lens {
     color:#78c64f;
+}
+
+.menu-mobile{
+    display: none;
 }
 
 @media (max-width:768px){
