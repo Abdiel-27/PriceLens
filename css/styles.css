@@ -557,3 +557,182 @@ footer nav a {
 .footer-logo .lens {
     color:#78c64f;
 }
+
+@media (max-width:768px){
+
+    header{
+        padding:18px 20px;
+        position:relative;
+    }
+
+    .menu-mobile{
+        display:block;
+        font-size:30px;
+        color:#075985;
+        cursor:pointer;
+        z-index:1001;
+    }
+
+    header nav{
+        display:none;
+        position:absolute;
+        top:70px;
+        left:0;
+        width:100%;
+        background:#fff;
+        flex-direction:column;
+        align-items:center;
+        gap:20px;
+        padding:25px 0;
+        box-shadow:0 8px 15px rgba(0,0,0,.12);
+    }
+
+    header nav.active{
+        display:flex;
+    }
+
+    .btn-download{
+        width:220px;
+        text-align:center;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        height:auto;
+        gap:40px;
+        padding:60px 20px;
+    }
+
+    .hero-content{
+        max-width:100%;
+    }
+
+    .hero h1{
+        font-size:36px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .buttons{
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+    }
+
+    .btn-primary,
+    .btn-secondary{
+        width:100%;
+        max-width:320px;
+        text-align:center;
+    }
+
+    .hero-phone{
+        margin-left:0;
+        height:auto;
+    }
+
+    .hero-phone img{
+        width:70%;
+        max-width:300px;
+        margin:0;
+    }
+
+    .steps{
+        flex-direction:column;
+        align-items:center;
+        gap:35px;
+    }
+
+    .step{
+        width:100%;
+        max-width:320px;
+    }
+
+    .benefits-cards{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .benefit-card{
+        width:100%;
+        max-width:340px;
+    }
+
+    .mission{
+        flex-direction:column;
+        text-align:center;
+        gap:40px;
+    }
+
+    .mission-visual img{
+        width:280px;
+    }
+
+    .mission-text{
+        max-width:100%;
+    }
+
+    .mission-text h2{
+        font-size:30px;
+    }
+
+    .mission-tag{
+        font-size:18px;
+    }
+
+    .testimonial-container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .testimonial-card{
+        width:100%;
+        max-width:340px;
+    }
+
+    .faq{
+        padding:60px 20px;
+    }
+
+    .faq details{
+        width:100%;
+    }
+
+    .cta{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .cta-left{
+        flex-direction:column;
+    }
+
+    .cta-left img{
+        width:120px;
+        height:auto;
+    }
+
+    .cta-left h2{
+        font-size:28px;
+    }
+
+    .cta-buttons{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    footer{
+        flex-direction:column;
+        text-align:center;
+        gap:20px;
+    }
+
+    footer nav{
+        flex-direction:column;
+        gap:15px;
+    }
+
+}
