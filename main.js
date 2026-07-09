@@ -1,4 +1,4 @@
-// ================= HEADER: sombra al hacer scroll =================
+// ================= HEADER =================
 const header = document.querySelector('header');
 
 window.addEventListener('scroll', () => {
@@ -10,7 +10,7 @@ window.addEventListener('scroll', () => {
 });
 
 
-// ================= NAV: resaltar enlace activo al hacer scroll =================
+// ================= NAV =================
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('nav a[href^="#"]');
 
@@ -35,7 +35,7 @@ window.addEventListener('scroll', () => {
 });
 
 
-// ================= SCROLL SUAVE para enlaces del nav =================
+// ================= SCROLL  =================
 navLinks.forEach(link => {
   link.addEventListener('click', (e) => {
     const href = link.getAttribute('href');
@@ -50,7 +50,7 @@ navLinks.forEach(link => {
 });
 
 
-// ================= ANIMACIÓN: elementos aparecen al entrar en vista =================
+// ================= ANIMACIÓN =================
 const animatedElements = document.querySelectorAll(
   '.step, .benefit-card, .testimonial-card, .mission-text, .mission-visual'
 );
@@ -73,7 +73,7 @@ animatedElements.forEach(el => {
 });
 
 
-// ================= FAQ: solo un item abierto a la vez =================
+// ================= FAQ =================
 const faqItems = document.querySelectorAll('.faq details');
 
 faqItems.forEach(item => {
@@ -87,7 +87,7 @@ faqItems.forEach(item => {
 });
 
 
-// ================= BOTONES "Descargar App": aviso temporal =================
+// ================= BOTONES=================
 const downloadBtns = document.querySelectorAll('.btn-download, .btn-primary');
 
 downloadBtns.forEach(btn => {
