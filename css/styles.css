@@ -205,64 +205,76 @@ nav a{
 
 /* ================= BENEFICIOS ================= */
 
-
 .beneficios{
-    padding:80px 8%;
-    text-align:center;
+    width: 100%;
+    padding: 60px 5%;
+    background: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .beneficios h2{
-    font-size:30px;
-    margin-bottom:40px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 40px;
 }
 
-.benefit-cards{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
-    margin-bottom:70px;
+
+.benefits-cards{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: nowrap;
 }
+
 
 .benefit-card{
-    width:250px;
-    background:white;
-    padding:25px;
-    border-radius:14px;
-    text-align:left;
-    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    width: 250px;
+    min-height: 200px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.08);
+    text-align: left;
+    transition: .3s;
+    box-sizing: border-box;
 }
 
-.benefit-icon{
-    width:45px;
-    height:45px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    border-radius:10px;
-    margin-bottom:15px;
+.benefit-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,.12);
 }
 
-.icon-green{
-    background:#e4f5e7;
+.icon-square{
+    width: 46px;
+    height: 46px;
+    background: #e8f7ee;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
 }
 
-.icon-blue{
-    background:#e3effd;
-}
-
-.icon-gray{
-    background:#eef1f4;
+.icon-square img{
+    width: 24px;
+    height: 24px;
 }
 
 .benefit-card h3{
-    margin-bottom:10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 10px;
 }
 
 .benefit-card p{
-    color:#64748b;
-    font-size:14px;
-    line-height:1.6;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #6b7280;
 }
 
 /* ================= MISION ================= */
