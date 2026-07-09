@@ -69,6 +69,10 @@ nav a{
     padding:10px 22px;
     border-radius:12px;
 }
+.btn-download:hover{
+    background:#2d7a3a;
+    border:1px solid #075985;
+}
 
 /* ================= HERO ================= */
 
@@ -122,7 +126,10 @@ nav a{
     text-decoration:none;
     font-weight:600;
 }
-
+.btn-primary:hover{
+    background:#2d7a3a;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
 .btn-secondary{
     background:white;
     border:1px solid #ddd;
@@ -131,7 +138,10 @@ nav a{
     text-decoration:none;
     color:#075985;
 }
-
+.btn-secondary:hover{
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+    background:#2d7a3a;
+}
 /* TELEFONO */
 
 .hero-phone{
